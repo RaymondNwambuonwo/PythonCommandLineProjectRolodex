@@ -49,3 +49,5 @@ if person == '2':
     print(output.name)
     print(output.phone_number)
     print(output.birthday)
+else:
+    print("Please come back when you're ready to add more contacts!")
