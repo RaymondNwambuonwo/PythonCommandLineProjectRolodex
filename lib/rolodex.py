@@ -52,7 +52,7 @@ if person == '2':
 if person == '3':
     find = input("search by name: ")
     gone = contact.select().where(contact.name == find).get()
-    gone.delete()
+    gone.delete_instance()
     print("Contact has been deleted")  
 if person == '4':
     amount = contact.select()
