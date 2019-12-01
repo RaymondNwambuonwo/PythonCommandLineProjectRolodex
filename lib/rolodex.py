@@ -46,3 +46,6 @@ if person == '1':
 if person == '2':
     find = input("search by name: ")
     output = contact.select().where(contact.name == find).get()
+    print(output.name)
+    print(output.phone_number)
+    print(output.birthday)
