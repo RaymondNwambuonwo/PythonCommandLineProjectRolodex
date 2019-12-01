@@ -45,3 +45,4 @@ if person == '1':
     print("")
 if person == '2':
     find = input("search by name: ")
+    output = contact.select().where(contact.name == find).get()
