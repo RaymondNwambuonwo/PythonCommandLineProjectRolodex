@@ -34,3 +34,4 @@ if person == '1':
     new_year = int(input('Please enter the birth year: '))
     new_month = int(input('Please enter the birth month (number): '))
     new_day = int(input('Please enter the birth day: '))
+    new_person = contact(name=name, phone_number=phone, email=email, birthday=date(new_year, new_month, new_day))
