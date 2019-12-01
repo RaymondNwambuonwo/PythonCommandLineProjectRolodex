@@ -43,3 +43,5 @@ if person == '1':
     print(new_person.email)
     print(f"{new_person.birthday}")
     print("")
+if person == '2':
+    find = input("search by name: ")
