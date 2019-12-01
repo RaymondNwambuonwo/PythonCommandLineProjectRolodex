@@ -12,7 +12,7 @@ class BaseModel(Model):
     class Meta:
         database = db
 
-
+# create base model class 
 class contact(BaseModel):
     name = CharField()
     phone_number = CharField()
@@ -24,4 +24,10 @@ class contact(BaseModel):
 # db.drop_tables([contact])
 db.create_tables([contact])
 
-
+# create input logic to where people can start adding
+person = input("type 1 to create or type 2 to search ")
+# if statement for when a person chooses to add. Below add input value for defined fields above.
+if person == '1':
+    name = input("Add contact's name: ")
+    phone = input("what is their phone number? ")
+    email = input("email: ")
