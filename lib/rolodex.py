@@ -31,3 +31,6 @@ if person == '1':
     name = input("Add contact's name: ")
     phone = input("what is their phone number? ")
     email = input("email: ")
+    new_year = int(input('Please enter the birth year: '))
+    new_month = int(input('Please enter the birth month (number): '))
+    new_day = int(input('Please enter the birth day: '))
