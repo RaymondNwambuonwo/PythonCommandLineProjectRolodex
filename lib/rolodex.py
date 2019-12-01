@@ -25,7 +25,7 @@ class contact(BaseModel):
 db.create_tables([contact])
 
 # create input logic to where people can start adding
-person = input("type 1 to create or type 2 to search or type 3 to delete a contact ")
+person = input("type 1 to create or type 2 to search or type 3 to delete or type 4 to see all contacts ")
 # if statement for when a person chooses to add. Below add input value for defined fields above.
 if person == '1':
     name = input("Add contact's name: ")
@@ -54,5 +54,9 @@ if person == '3':
     gone = contact.select().where(contact.name == find).get()
     gone.delete()
     print("Contact has been deleted")  
+if person == '4':
+    amount = contact.select()
+    for person in amount:
+        print('{}'.format(person.name))
 else:
     print("Please come back when you're ready to add more contacts!")
