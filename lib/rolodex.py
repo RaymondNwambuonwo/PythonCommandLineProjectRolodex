@@ -21,7 +21,7 @@ class contact(BaseModel):
 
 
 # Create tables
-db.drop_tables([contact])
+# db.drop_tables([contact])
 db.create_tables([contact])
 
 # create input logic to where people can start adding
