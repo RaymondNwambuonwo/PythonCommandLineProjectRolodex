@@ -38,6 +38,9 @@ python3 rolodex.py
 3. peewee
 4. pyscopg2
 
+## Future Development
+I would like to implement a graphical user interface (GUI) so the layout will be more user friendly. This was my first time creating a python command application, having learned python in 2 days, and it was been a great first time experience.
+
 ## Contribute
 
   * Source code: [https://github.com/RaymondNwambuonwo/PythonCommandLineProjectRolodex](https://github.com/RaymondNwambuonwo/PythonCommandLineProjectRolodex)
